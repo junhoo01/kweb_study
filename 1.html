@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1> KWEB Survey Page</h1>
+        <img src = "https://i.imgur.com/hSSFVSw.png">
+    </div>
+    <a href = "https://kwebofficial.com/" title="kwebhomepage" target="_blank">KWEB Homepage</a>
+
+    <div class = "title">1. Write your name.</div>
+    
+    <input type="text" name="username">
+    
+    <div class = "title">2. Write your student number.</div>
+
+    <input type="text" name="usernumber">
+    
+    <div class = "title">3. Select yout member level.</div>
+
+    <label><input type="radio" name="field" value="Admin">Admin</label>
+    <label><input type="radio" name="field" value="Intern">Intern</label>
+    <label><input type="radio" name="field" value="Qualified">Qualified</label>
+
+    <div class = "title">4. Select all fields you are interested in.</div>
+    
+    <label class="notround"><input type="radio" name="field" value="Front-end">Front-end</label>
+    <label><input type="checkbox" name="field" value="Back-end">Back-end</label>
+    <label><input type="checkbox" name="field" value="Web crawling">Web crawling</label>
+    <label><input type="checkbox" name="field" value="Web security">Web security</label>
+    <label><input type="checkbox" name="field" value="Etcetera">Etcetera</label>
+    <input type="text" name="field">
+    
+    <div class = "title">5. Give us yout overall evaluation and feedback about the previous study.</div>
+
+    <div>
+        <textarea name="previous_study" id="" cols="100" rows="15"></textarea>
+    </div>
+    
+    <button type="submit">Submit yout answers</button>
+</body>
+</html>
